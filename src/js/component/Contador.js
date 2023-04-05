@@ -9,22 +9,20 @@ function Contador() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const interval = setInterval(() => {
       setCount((count) => count + 1);
     }, 1000);
-
-
-    render() {
-
+    
+    
       return (
         <>
           <span>Seconds Counter: {seconds}</span>
+          <h1>Seconds Counter: {seconds}</h1>
 
-          <button onClick={() => setCount(count + 1)}>Incrementa
-          </button>
+          
         </>
       );
-    }
+    
   });
 
 }
