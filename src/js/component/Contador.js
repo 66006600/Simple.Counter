@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { render } from 'react-dom';
 
 
 // let interval = setInterval(Contador, 10000);
@@ -18,7 +17,6 @@ function Contador() {
         <>
           <span>Seconds Counter: {seconds}</span>
           <h1>Seconds Counter: {seconds}</h1>
-
           
         </>
       );

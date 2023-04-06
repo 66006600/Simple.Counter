@@ -7,27 +7,17 @@ import Contador from "./Contador";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<div className="row bg-dark">
-				<div className="col"><i class="bi bi-clock-history"></i></div>
-				<div className="col">0</div>
-				<div className="col">0</div>
-				<div className="col">0</div>
-			</div>
-
-			<nav className="navbar navbar-light bg-light">
-				<form className="form-inline">
-					<button className="btn btn-outline-success" type="button">Start button</button>
-					<button className="btn btn-outline-warning" type="button">Pause button</button>
-
-				</form>
-			</nav>
-
-
-			<Contador />
-
+		<div style={{ display: 'flex' }}>
+			<Cuadro valor={1} />
+			<Cuadro valor={2} />
+			<Cuadro valor={3} />
+			<Cuadro valor={4} />
+			<Cuadro valor={5} />
+			<Cuadro valor={6} />
 		</div>
-	);
+		
+
+	)
 };
 
 export default Home;
