@@ -5,10 +5,6 @@ import "./component/Styles.css";
 
 
 
-// include your styles into the webpack bundle
-
-
-//render your react application
 function SimpleCounter(props) {
     return (
         <div className="bigCounter">
@@ -50,5 +46,4 @@ setInterval(function () {
 
 }, 1000);
 
-
-export default SimpleCounter;
+export default SimpleCounter; 
