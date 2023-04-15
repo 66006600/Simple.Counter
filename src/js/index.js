@@ -3,26 +3,23 @@ import React from "react";
 import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 
+
 //render your react application
 function SimpleCounter(props) {
     return (
-        <div className="Container bg-dark">
-            <div className="Row">
-                <div className="Col">
-                    <div className="calendar">
-                        <i className="bi bi-clock"></i>
+        <div className="bigCounter">
 
-                    </div>
-                    <div className="four">{props.digitFour % 10}</div>
-                    <div className="three">{props.digitThree % 10}</div>
-                    <div className="two">{props.digitTwo % 10}</div>
-                    <div className="one">{props.digitOne % 10}</div>
-
-                </div>
-
+            <div className="calendar">
+                <i className="bi bi-clock"></i>
 
             </div>
+            <div className="four">{props.digitFour % 10}</div>
+            <div className="three">{props.digitThree % 10}</div>
+            <div className="two">{props.digitTwo % 10}</div>
+            <div className="one">{props.digitOne % 10}</div>
+
         </div>
+
     )
 }
 
@@ -47,3 +44,4 @@ setInterval(function () {
 }, 1000);
 
 
+export default SimpleCounter;

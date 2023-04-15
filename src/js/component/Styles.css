@@ -1,25 +1,14 @@
-.Container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.bigCounter {
+    display: inline-block;
+    text-align: center;
 }
 
-.Row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.col {
-    background-color: black;
+.bigCounter div {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 50px;
+    background: black;
     color: white;
-    font-size: 100px;
-    font-weight: bold;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+    padding: 10px;
 }
+

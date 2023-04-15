@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 // let interval = setInterval(Contador, 10000);
 
 function Contador() {
-  // Declara una nueva variable de estado, que llamaremos "count".
+ 
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -14,11 +14,11 @@ function Contador() {
     
     
       return (
-        <>
+        <div>
           <span>Seconds Counter: {seconds}</span>
           <h1>Seconds Counter: {seconds}</h1>
           
-        </>
+        </div>
       );
     
   });
