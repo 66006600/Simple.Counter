@@ -1,6 +1,8 @@
 .bigCounter {
     display: inline-block;
     text-align: center;
+    width: 100%;
+    background-color: black;
 }
 
 .bigCounter div {
@@ -12,3 +14,6 @@
     padding: 10px;
 }
 
+svg {
+    padding-bottom: 10px;
+}

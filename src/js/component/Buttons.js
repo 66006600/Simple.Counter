@@ -14,4 +14,4 @@ let controls = ({ pause, takeLap, restart, go }) => (
     </div>
 );
 
-export default controls 
+export default controls;
